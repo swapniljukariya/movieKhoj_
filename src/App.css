@@ -1,0 +1,26 @@
+.App{
+    background-color: black;
+    font-family: 'Times New Roman', Times ;
+    font-size: 30px;
+    box-sizing: border-box;
+    color: white;
+    
+
+}
+header{
+    
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: larger;
+    height: 50px;
+    
+}
+
+.container{
+   display:grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin-left:15vw;
+   margin-top: 40px;
+   
+}

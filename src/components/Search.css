@@ -1,0 +1,19 @@
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 19px;
+    
+   
+    height: 10vh;
+}
+input{
+    height: 58px;
+    width: 25vw;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 30px;
+   padding: 20px;
+   box-sizing: border-box;
+  
+}
