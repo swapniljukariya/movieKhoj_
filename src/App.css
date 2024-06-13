@@ -1,26 +1,51 @@
+*{
+    background-color: black;
+    color: white;
+}
 .App{
     background-color: black;
     font-family: 'Times New Roman', Times ;
     font-size: 30px;
     box-sizing: border-box;
     color: white;
-    
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
 }
 header{
-    
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
     font-size: larger;
-    height: 50px;
+    height: 12vh;
+    
+ 
+    
     
 }
-
 .container{
    display:grid;
    grid-template-columns: repeat(3, 1fr);
-   margin-left:15vw;
-   margin-top: 40px;
-   
+   margin:4vw;
+   margin-top: 5em;
+   border: 1px solid white;
+   padding: 2em;
+   height: auto;
+   font-size: 0.8em;
+   width: auto;
+}
+img{
+    height: 27vh;
+    width: 4vw;
+
+}
+.item{
+    height: auto;
+    width: auto;
+    background-color: gray;
+    padding: 2em;
+    margin: 1em;
+    border: 1px solid white;
+    margin: 1em;
+    text-align: center;
+
 }

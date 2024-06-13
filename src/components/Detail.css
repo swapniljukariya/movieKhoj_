@@ -1,0 +1,12 @@
+.details{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border: 2px solid grey;
+    gap: 20rem;
+    border: 2px soloid white;
+    width: 50vw;
+    background-color: white;
+    color: black;
+    margin-left: 25vw;
+}

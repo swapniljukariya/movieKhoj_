@@ -1,31 +1,33 @@
-// Filename - components/Detail.js
+import React from 'react'
+import './Detail.css';
 
-import React from "react";
-
-function Detail({ selected, closeDetail }) {
-	return (
-		<section className="detail">
-			<div className="content">
-				<h2>{selected.Title}</h2>
-				<span>{selected.Year}</span>
-				<p className="rating">
-					Rating: {selected.imdbRating}
-				</p>
-
-				<div className="about">
-					<img src={selected.Poster} alt="" />
-
-					<p>{selected.Plot}</p>
-				</div>
-				<button
-					className="close"
-					onClick={closeDetail}
-				>
-					Close
-				</button>
-			</div>
-		</section>
-	);
+function Detail({selected, closeDetail }) {
+  return (
+	<div className='details'>
+		<div className='left-box'>
+			<img
+			src={selected.Poster}
+			alt={selected.title}
+			/>
+		</div>
+		<div className='right-box'>
+		<div>
+			<h2>{selected.Title}</h2>
+			<span>{selected.Year}</span>
+			<p className="rating">
+                Rating: {selected.imdbRating}
+            </p>
+		</div>
+		<div className='plot'>
+			<p>{selected.Plotcd}</p>
+		</div>
+	</div>
+	<button onChangeCapture={closeDetail}>
+		Close Deatail
+	</button>
+	  
+	</div>
+  )
 }
 
-export default Detail;
+export default Detail
