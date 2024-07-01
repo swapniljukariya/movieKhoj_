@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/movieKhoj_/static/css/main.069903d1.css",
+    "main.js": "/movieKhoj_/static/js/main.f82b3e5f.js",
+    "static/js/592.ff6a7792.chunk.js": "/movieKhoj_/static/js/592.ff6a7792.chunk.js",
+    "index.html": "/movieKhoj_/index.html",
+    "main.069903d1.css.map": "/movieKhoj_/static/css/main.069903d1.css.map",
+    "main.f82b3e5f.js.map": "/movieKhoj_/static/js/main.f82b3e5f.js.map",
+    "592.ff6a7792.chunk.js.map": "/movieKhoj_/static/js/592.ff6a7792.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.069903d1.css",
+    "static/js/main.f82b3e5f.js"
+  ]
+}
